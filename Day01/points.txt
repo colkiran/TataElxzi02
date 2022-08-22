@@ -1,0 +1,231 @@
+Python
+------
+
+What is python?
+
+
+Desktop App			->			Tkinter
+
+Web App					->			Django, flask, Pyramid
+
+Mobile App				->			Kivy
+
+Testing					->			unit test, performance test, Robot Framework, selenium
+
+Automation				->			paramiko 
+
+ETL						->			petl
+
+Data Science
+
+	- Data Analytics
+	- ML	(machine learning)
+	- Deep Learning
+	- AI 
+
+
+Versions
+---------
+2.x and 3.x
+------------
+
+3.7 +
+
+3.10		-	Latest Version
+
+
+Flavours of python
+-------------------
+
+Cpython				-			currently using
+
+Jython				-			Python code -> Java code
+
+Iron Python		-			Python code -> dot net libraries
+
+
+python is a scripting tool
+--------------------------
+
+1. interpreted
+
+2. loosely coupled data type (implicit decleration)
+	dynamic
+	-------
+	i = 10
+
+
+C and C++ - programming language
+---------------------------------
+1. compiler
+
+2. tightly couples (explicitly declare the data type)
+
+static
+-------
+int x; 
+x = 10
+
+
+python 3.10
+-----------
+1. SDK			(Software Development Kit)
+
+2. Shell		(python interactive environment)
+
+3. IDLE			(interative development environment)
+
+www.python.org
+
+Notepad++
+
+pycharm			->		Community Edition	 (open source)
+
+VS code (CE)	
+
+Eclipse 
+
+Sublime Text
+
+Jupyter Notebook
+
+spyder
+
+---------------------------------------------------------------------------------
+
+
+
+in python there are two operators that are overloaded
+
++		- add numbers and concatenate strings
+
+*		- multiply numbers and to print a string n number of times
+
+
+----------------------------------------------------------------------------------
+
+Primary Data Type
+--------------------
+
+1. Numbers
+		a. integers
+		b. float
+		c. complex numbers
+2. Strings
+3. Boolean
+
+
+c:\users\kiran
+
+Module 		- imp			(5mb)
+function	-	reload
+
+import imp		
+
+from imp import reload
+
+reload(sample)
+
+os.system()
+os.getcwd()
+
+
+Coding Rules
+-------------
+#!				- 		Shebang			- 	used to specify the path of python executable
+
+#				-		comments		-	single line comments
+
+strings in python is stored in
+
+" "  or ' '		- for single line
+
+"""
+multi
+		line
+			string
+"""
+
+'''
+multi
+		line
+			string
+'''
+
+indentation
+-----------
+1. functions
+2. loops
+3. if conditions
+4. classes
+
+
+def fun():
+	print("this is the function code")
+	
+	for i in range(1, 50):
+		print("for loop code...")
+		if i % 3 == 0:
+			print("if condition code")
+			print(i)
+
+pint("Main function code")
+
+Identifiers
+-----------
+variable should not strart with numbers
+can have numbers in between
+
+can use underscore in between
+
+bitwise operators
+------------------
+
+5 = 0101
+3 = 0011
+	  0111
+
+	  0001
+	  0110
+
+	  10000
+		
+	  10100
+
+
+LOOPS AND CONTROLSTRUCTURES
+---------------------------
+loops
+------
+1. for loop
+2. while loop
+
+Control Structures
+------------------
+1. if conditions
+
+
+print function
+---------------
+print(data, sep=, end="\n")
+
+
+1
+23
+456
+78910
+
+print all prime numbers between 150 and 50 and also print the count of it.
+
+
+
+
+
+
+
+
+
+
+
+
+
