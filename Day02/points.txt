@@ -1,0 +1,73 @@
+Strings
+-------
+1. strings are immutable
+
+
+st= "hello"
+
+st = "world"
+
+immutable - "str object does not support item assignment"
+
+Data Structures
+--------------
+1. lists
+2. dictionary
+3. tuple
+4. set
+
+Lists
+-----
+same as arrays
+
+Array?
+------
+1. collection of homogenous data
+2. Contigious memory allocation
+
+
+Lists
+-----
+1. collecition of hetrogenous data
+2. Memory allocation is not contigious
+3. ordered collection of data
+4. it is mutable
+5. it is subscriptable
+6. lists are enclosed in []
+
+
+Functions to manipulate lists
+-----------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+append, extend, insert
+
+pop, remove, clear
+
+
+
+
+
+
+Assignment - 1
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+Assignment - 2
+--------------
+2. create a identity matrix
+
+[[1, 0, 0],
+ [0, 1, 0],
+ [0, 0, 1]]
+
+
+
