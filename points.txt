@@ -1,0 +1,150 @@
+Strings
+-------
+1. strings are immutable
+
+
+st= "hello"
+
+st = "world"
+
+immutable - "str object does not support item assignment"
+
+Data Structures
+--------------
+1. lists
+2. dictionary
+3. tuple
+4. set
+
+Lists
+-----
+same as arrays
+
+Array?
+------
+1. collection of homogenous data
+2. Contigious memory allocation
+
+
+Lists
+-----
+1. collecition of hetrogenous data
+2. Memory allocation is not contigious
+3. ordered collection of data
+4. it is mutable
+5. it is subscriptable
+6. lists are enclosed in []
+
+
+Functions to manipulate lists
+-----------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+append, extend, insert
+
+pop, remove, clear
+
+----------------------------------------------------------------------------
+Day03
+----------------------------------------------------------------------------
+clear, count, index, copy, reverse, sort
+
+https://pythontutor.com/visualize.html#mode=edit
+
+
+clear function for lists
+------------------------
+
+list.sort()
+-----------
+1. sort         -   will sort the original list
+2. sorted       -   will take a copy of the list and then sort it
+
+Dictionary
+----------
+associative arrays
+
+No indexes, instead we have keys assigned to each value
+
+d1 = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
+
+keys = 1, 2, 3, 4 ,5
+values = 'a', 'b', 'c', 'd', 'e'
+
+keys are always unique
+they are unordered collection
+
+Functions to manipulate dictionaries
+-------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+Tuples
+------
+1. immutable lists
+2. tuples are enclosed in ()
+
+
+
+sets
+----
+1. unique collections
+2. unordered collection
+3. not subscriptable        (cannot be indexed)
+4. mutable
+5. {collection without keys and values}
+
+====================================================================================
+Day04
+-----
+Functions
+---------
+Using recursive calls:
+    1. find the factorial of a function
+    2. generate fibanocii series
+
+Lambdas
+--------
+1. lambdas are anonymous functions
+2. single expression
+
+lambda(var1, var2...: expression)
+
+
+Comprehension
+--------------
+
+Scopes
+------
+1. local
+2. global
+3. non local
+
+accessibility       =>  display the value of the var, change the value of the var
+
+
+
+
+------------------------------------------------------------------------------------
+
+Assignment - 1
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+Assignment - 2
+--------------
+2. create a identity matrix
+
+[[1, 0, 0],
+ [0, 1, 0],
+ [0, 0, 1]]
+
+
+
