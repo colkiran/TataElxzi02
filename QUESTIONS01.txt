@@ -1,0 +1,28 @@
+OOPS
+1: Create a Class with instance attributes
+2: Create a Vehicle class without any variables and methods
+3: Create a child class Bus that will inherit all of the variables and methods of the Vehicle class
+4: Class Inheritance
+5: Define a property that must have the same value for every class instance (object)
+6: Class Inheritance
+7: Check type of an object
+8: Determine if School_bus is also an instance of the Vehicle class
+9: Write a Python class to reverse a string word by word.
+
+10: Write a Python class which has two methods get_String and print_String. get_String accept a string from the user and print_String print the string in upper case.
+
+11: Write a Python class named Rectangle constructed by a length and width and a method which will compute the area of a rectangle.
+
+12: Write a Python program that lists out all the default as well as custom properties of the class.
+
+13: Write a Python program that checks if one class is a subclass of another?
+
+14: Write a Python program that overloads the operator + and > for a custom class.
+
+15: Create a class Teacher with name, age, and salary attributes, where salary must be a private attribute that cannot be accessed outside the class.
+
+16: Write a Program, to create a class and using the class instance print all the writable attributes of that object.
+
+17: Write a program, to create a child class Teacher that will inherit the properties of Parent class Staff
+
+

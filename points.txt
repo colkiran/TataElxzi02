@@ -122,6 +122,141 @@ Scopes
 
 accessibility       =>  display the value of the var, change the value of the var
 
+=====================================================================================
+Day - 5
+-------------------------------------------------------------------------------------
+
+Nested Functions
+----------------
+if a function is enclosed inside another function then we call it as closure
+
+OOPS
+----
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Ecapsulation
+
+Every class that we create is inherited from object class or object is the base class of all classes
+
+__main__   -> double under score main => dunder_main
+
+self will have the name of the object that called the method
+
+ply1 = Player('Sachin', 38)
+ply1.get_details()          => ply1 is passed as an argument to self of get_details
+
+
+class Arttribute
+----------------
+static variable and stay the same across objects
+
+class method
+------------
+    1. we can access class attribute and change its value
+    2. we can do mild changes the arguments used in the constructor
+    3. class methods should be called with class names
+
+
+=====================================================================================
+Day - 6
+-------------------------------------------------------------------------------------
+Operator Overloading
+--------------------
+all arithmetic operators
+------------------------
++   add
+-   sub
+/   div
+*   mul
+//  floor div
+
+
+Duck Typing
+-----------
+anything that quaks is a duck
+
+
+Packages and Modules
+---------------------
+Modules -> same as libraries in other technologies
+any python file can be considered as a module
+
+Packages
+---------
+packages are folders or directory where a module is stored
+
+Mysql DB
+--------
+
+modules
+-------
+abc.MysqlConnect
+xyz.MysqlConnect
+
+packages are compared with classes in python
+
+we need constructor to instantiate a class      ->  __init__
+
+package -> __init__.py
+
+any module that we import will first get converted from .py to .pyc file
+
+
+Delhi
+    - gurgaon
+
+sounds
+    - effects
+        - dts.py
+        - echo.py
+        - surround.py
+        - __init__.py
+    - filters
+    - formats
+
+
+import module
+import package.module
+from module import function, class
+from package import module
+from package import *
+
+File Handling
+-------------
+Mode of opening the file
+------------------------
+r - read mode (Default)
+w - write mode
+a - append mode
+
+FL - position = seek(offset, whence)
+
+offset - number of bytes
+whence -
+        0 - BOF
+        1 - Current Position
+        2 - EOF
+
+seek(100, 0)        -> 100 bytes from BOF
+seek(50, 1)         -> 50 bytes from CP
+
+--------------------------------------------------------------------------------------------
+Files
+-----
+JSON, XML, DB, Excel
+
+Regex
+Threads
+
+Lib
+----
+functools
+itertools
+
+
+
+
 
 
 
